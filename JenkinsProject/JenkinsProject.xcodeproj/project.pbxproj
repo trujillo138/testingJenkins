@@ -15,6 +15,7 @@
 		4069A464208E769100E81023 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4069A463208E769100E81023 /* main.m */; };
 		4069A46E208E769200E81023 /* JenkinsProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4069A46D208E769200E81023 /* JenkinsProjectTests.m */; };
 		4069A479208E769200E81023 /* JenkinsProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4069A478208E769200E81023 /* JenkinsProjectUITests.m */; };
+		40B18018208E89490071B070 /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 40B18017208E89490071B070 /* Model.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		4069A474208E769200E81023 /* JenkinsProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JenkinsProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4069A478208E769200E81023 /* JenkinsProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JenkinsProjectUITests.m; sourceTree = "<group>"; };
 		4069A47A208E769200E81023 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40B18016208E89490071B070 /* Model.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
+		40B18017208E89490071B070 /* Model.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				4069A45F208E769100E81023 /* LaunchScreen.storyboard */,
 				4069A462208E769100E81023 /* Info.plist */,
 				4069A463208E769100E81023 /* main.m */,
+				40B18016208E89490071B070 /* Model.h */,
+				40B18017208E89490071B070 /* Model.m */,
 			);
 			path = JenkinsProject;
 			sourceTree = "<group>";
@@ -265,6 +270,7 @@
 				4069A459208E768F00E81023 /* ViewController.m in Sources */,
 				4069A464208E769100E81023 /* main.m in Sources */,
 				4069A456208E768F00E81023 /* AppDelegate.m in Sources */,
+				40B18018208E89490071B070 /* Model.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
